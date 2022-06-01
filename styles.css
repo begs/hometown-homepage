@@ -1,0 +1,43 @@
+body {
+	margin: 0;
+	text-align: center;
+}
+
+#hero {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 343px;
+	border: 1px dotted black;
+	background-image: url("images/floro-cover.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+#hero-title {
+	background: #006D77;
+	color: white;
+	border-radius: 10px;
+	margin-top: 122px;
+	margin-bottom: 0px;
+	padding: 2px 14px;
+}
+
+#hero-description {
+	width: 420px;
+	background: #83C5BE;
+	color: white;
+	border-radius: 10px;
+	margin-top: 11px;
+	padding: 2px 14px;
+}
+
+#activies {
+	height: 343px;
+	border: 1px dotted blue;
+}
+
+#guide {
+	height: 343px;
+	border: 1px dotted green;
+}
