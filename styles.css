@@ -1,6 +1,7 @@
 body {
 	margin: 0;
 	text-align: center;
+	font-family: "Arial";
 }
 
 #hero {
@@ -8,7 +9,6 @@ body {
 	flex-direction: column;
 	align-items: center;
 	height: 343px;
-	border: 1px dotted black;
 	background-image: url("images/floro-cover.jpg");
 	background-size: cover;
 	background-position: center;
@@ -32,12 +32,64 @@ body {
 	padding: 2px 14px;
 }
 
-#activies {
+#activies-section {
+	display: flex;
+	justify-content: space-around;
 	height: 343px;
-	border: 1px dotted blue;
+	background: #EDF6F9;
 }
 
-#guide {
+.activity {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 200px;
+	padding: 50px 15px;
+	font-size: 16px;
+}
+
+.activity-image {
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+	background-size: cover;
+	background-position: center;
+}
+
+#activity-image-goats {
+	background-image: url("images/goats.webp");
+}
+
+#activity-image-hike {
+	background-image: url("images/brandsoyaasen.jpeg");
+}
+
+#activity-image-explore {
+	background-image: url("images/hovden.jpeg");
+}
+
+.activity-title {
+	margin: 0;
+	padding: 22px 0 17px;
+	font-weight: bold;
+}
+
+.activity-description {
+	margin: 0;
+}
+
+#guide-section {
+	display: flex;
+	justify-content: center;
 	height: 343px;
-	border: 1px dotted green;
+	margin: 50px 0 50px;
+}
+
+#guide-card {
+	display: flex;
+	justify-content: center;
+	height: 294px;
+	width: 400px;
+	background: #FFDDD2;
+	color: #006D77;
 }
