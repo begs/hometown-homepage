@@ -81,7 +81,7 @@ body {
 #guide-section {
 	display: flex;
 	justify-content: center;
-	height: 343px;
+	height: 394px;
 	border: 1px dotted blue;
 }
 
@@ -92,4 +92,5 @@ body {
 	width: 400px;
 	background: #FFDDD2;
 	color: #006D77;
+	margin: 50px 0;
 }
