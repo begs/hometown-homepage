@@ -82,15 +82,41 @@ body {
 	display: flex;
 	justify-content: center;
 	height: 394px;
-	border: 1px dotted blue;
 }
 
 #guide-card {
 	display: flex;
-	justify-content: center;
+	justify-content: space-evenly;
 	height: 294px;
 	width: 400px;
 	background: #FFDDD2;
 	color: #006D77;
 	margin: 50px 0;
+	border-radius: 10px;
+	border-bottom: 6px solid #023047;
+}
+
+#profile-picture {
+	max-height: 250px;
+	width: auto;
+	border-radius: 10px;
+	margin: 23px 0px;
+}
+
+#guide-text {
+	max-width: 190px;
+}
+
+#guide-text .bold {
+	font-weight: bold;
+}
+
+#guide-text h2 {
+	font-size: 20px;
+	margin-top: 50px;
+	margin-bottom:10px;
+}
+
+#guide-text p {
+	margin: 20px 0;
 }
